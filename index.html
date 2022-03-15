@@ -4,9 +4,34 @@
     <meta charset="utf-8">
     <title>Gender Reveal</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
   <body>
-    gender reveal page
+    <div class="buttons">
+      <div class="blue-button button" id="left-top"></div>
+      <div class="pink-button button" id="left-center"></div>
+      <div class="blue-button button" id="right-center"></div>
+      <div class="pink-button button" id="right-top"></div>
+    </div>
+
+    <div class="message">
+      <!-- <h2 id="first">Christina and Kumar</h2>
+      <h2 id="second">Are expecting</h2>
+      <h2 id="third">A beautiful</h2>
+      <h2 id="fourth">Girl</h2> -->
+
+      <h2 id="first"></h2>
+      <h2 id="second"></h2>
+      <h2 id="third"></h2>
+      <h2 id="fourth"></h2>
+    </div>
+
+    <input type="hidden" id="counter" value="0" />
   </body>
-  <script type="text/javascript" src="app.js">
+  <script type="text/javascript" src="app.js"></script>
+
+
 </html>
