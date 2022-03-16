@@ -107,4 +107,13 @@ body {
       height: 80px;
       width: 80px;
     }
+    .stork, .goku{
+      top: 70%;
+    }
+    .baby, .guy{
+      top: 75%;
+    }
+    .baby{
+      left: 28%;
+    }
   }
