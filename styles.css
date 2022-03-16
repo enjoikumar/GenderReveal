@@ -57,8 +57,8 @@ body {
   margin-top: 100px;
 }
 .gifs img{
-  height: 250px;
-  width: 250px;
+  height: 150px;
+  width: 150px;
   position: absolute;
   z-index: 5;
   display: none;
@@ -84,12 +84,12 @@ body {
     transform: rotate(-30deg);
   }
   .guy{
-    top: 60%;
-    left: 54%;
+    top: 80%;
+    left: 58%;
     transform: rotate(-15deg);
   }
   .baby{
-    top: 60%;
+    top: 80%;
     left: 30%;
     transform: rotate(15deg);
   }
