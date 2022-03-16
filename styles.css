@@ -95,8 +95,9 @@ body {
   }
 
   @media(max-width: 650px){
-    .message{
+    .message h2{
       color: white;
+      margin-bottom: 20px;
     }
     .button{
       border-radius: 50%;
