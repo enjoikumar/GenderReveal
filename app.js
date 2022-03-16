@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+  $('.direction').fadeOut(2000, "linear");
+
   function getRandomIntegerInRange(min, max) {
   	min = Math.ceil(min);
   	max = Math.floor(max);
@@ -36,14 +38,15 @@ $(document).ready(function(){
   			$("#first").text("Christina and Kumar");
   			break;
   		case 2:
-  			$("#second").text("Are expecting");
+  			$("#second").text("are expecting");
   			break;
   		case 3:
   			$("#third").text("A beautiful");
   			break;
   		case 4:
-  			$("#fourth").text("Girl");
-        $("body").css('background-color', 'pink');
+  			$("#fourth").text("BOY!!!!");
+        $("body").css('background-color', '#89CFF0');
+        $('.gifs img').css('display', 'block');
   			break;
   	}
   }
