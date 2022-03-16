@@ -2,6 +2,31 @@ $(document).ready(function(){
 
   $('.direction').fadeOut(2000, "linear");
 
+  $('#hint1').click(function(){
+    $('#hint1').css('display', 'none');
+    $('#hint2').css('display', 'block');
+    $("#first").text("Christina and Kumar");
+  });
+
+  $('#hint2').click(function(){
+    $('#hint2').css('display', 'none');
+    $('#hint3').css('display', 'block');
+    $("#second").text("are expecting");
+  });
+
+  $('#hint3').click(function(){
+    $('#hint3').css('display', 'none');
+    $('#hint4').css('display', 'block');
+    $("#third").text("a beautiful");
+  });
+
+  $('#hint4').click(function(){
+    $('#hint4').css('display', 'none');
+    $("#fourth").text("BOY!!!!");
+    $("body").css('background-color', '#89CFF0');
+    $('.gifs img').css('display', 'block');
+  });
+
   function getRandomIntegerInRange(min, max) {
   	min = Math.ceil(min);
   	max = Math.floor(max);
