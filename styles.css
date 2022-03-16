@@ -95,6 +95,9 @@ body {
   }
 
   @media(max-width: 650px){
+    .message{
+      color: white;
+    }
     .button{
       border-radius: 50%;
       width: 50px;
@@ -108,10 +111,10 @@ body {
       width: 80px;
     }
     .stork, .goku{
-      top: 70%;
+      top: 80%;
     }
     .baby, .guy{
-      top: 75%;
+      top: 85%;
     }
     .baby{
       left: 28%;
