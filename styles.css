@@ -113,6 +113,7 @@ body {
     border-radius: 4px;
     height: 50px;
     display: none;
+    font-size: 22px;
   }
   #hint1, #hint3{
     background-color: #89CFF0;
