@@ -41,7 +41,7 @@ $(document).ready(function(){
   			$("#second").text("are expecting");
   			break;
   		case 3:
-  			$("#third").text("A beautiful");
+  			$("#third").text("a beautiful");
   			break;
   		case 4:
   			$("#fourth").text("BOY!!!!");
